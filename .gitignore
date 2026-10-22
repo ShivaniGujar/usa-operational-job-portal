@@ -1,0 +1,33 @@
+﻿# Build artifacts
+target/
+build/
+dist/
+out/
+*.class
+
+# IDE and editor
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Node
+node_modules/
+npm-debug.log*
+.env
+.env.*
+!.env.example
+
+# Java and application logs
+*.log
+
+# Local configuration and secrets
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+secrets/
+.DS_Store
+Thumbs.db
